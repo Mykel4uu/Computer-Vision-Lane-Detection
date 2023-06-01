@@ -22,15 +22,8 @@ To use this code, follow these steps:
 
 1. Clone the repository: ` git clone https://github.com/your-username/lane-detection.git`
 2. Install the required dependencies: `pip install opencv-python numpy`
-3. Run the main.py script:
- For detecting lanes in an image, uncomment the following lines in the script: `
- image = cv2.imread('path/to/your/image.jpg')
+3. Run the main.py script: 
+  For detecting lanes in an image, uncomment the following lines in the script: `  image = cv2.imread('path/to/your/image.jpg')
 lane_image = np.copy(image)
 # ...
- ` Replace 'path/to/your/image.jpg' with the actual path to your image file.
- For detecting lanes in a video, uncomment the following lines in the script: `cap = cv2.VideoCapture('path/to/your/video.mp4')
-while(cap.isOpened()):
-    _, frame = cap.read()
-    # ... `
-
-
+  `
