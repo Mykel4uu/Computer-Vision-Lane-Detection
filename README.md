@@ -27,6 +27,10 @@ To use this code, follow these steps:
 lane_image = np.copy(image) ``` Replace 'path/to/your/image.jpg' with the actual path to your image file.
  For detecting lanes in a video, uncomment the following lines in the script: ``` cap = cv2.VideoCapture('path/to/your/video.mp4')
 while(cap.isOpened()):
-    _, frame = cap.read()
-    # ... ```
+    _, frame = cap.read() ```
+Replace 'path/to/your/video.mp4' with the actual path to your video file.  
+4. Save the changes and run the script: ```python lane_detection.py```
+The output will be displayed in a new window, showing the original image or video with the detected lanes drawn on it.
+
+'
 
