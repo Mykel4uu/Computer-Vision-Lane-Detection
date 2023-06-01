@@ -23,7 +23,7 @@ To use this code, follow these steps:
 1. Clone the repository: `python git clone https://github.com/your-username/lane-detection.git`
 2. Install the required dependencies: pip install opencv-python numpy
 3. Run the main.py script:
- For detecting lanes in an image, uncomment the following lines in the script: '''python
+ For detecting lanes in an image, uncomment the following lines in the script: ```python
  image = cv2.imread('path/to/your/image.jpg')
-lane_image = np.copy(image) '''
+lane_image = np.copy(image) ```
 
