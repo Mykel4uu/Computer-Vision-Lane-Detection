@@ -32,5 +32,9 @@ Replace 'path/to/your/video.mp4' with the actual path to your video file.
 4. Save the changes and run the script: ```python lane_detection.py```
 The output will be displayed in a new window, showing the original image or video with the detected lanes drawn on it.
 
-'
+# Acknowledgments
+
+The lane detection algorithm used in this project is based on the Hough transform technique.
+Special thanks to the OpenCV and NumPy communities for providing the necessary tools and libraries.
+
 
