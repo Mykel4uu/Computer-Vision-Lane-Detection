@@ -20,7 +20,7 @@ The main.py file is the main script that performs lane detection on either an im
 
 To use this code, follow these steps:
 
-1. Clone the repository: ` git clone https://github.com/your-username/lane-detection.git`
+1. Clone the repository: ` git clone https://github.com/mykel4uu/lane-detection.git`
 2. Install the required dependencies: `pip install opencv-python numpy`
 3. Run the main.py script:
  For detecting lanes in an image, uncomment the following lines in the script: ```  image = cv2.imread('path/to/your/image.jpg')
