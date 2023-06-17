@@ -1,5 +1,5 @@
 # Lane-Detection
-This repository contains code for detecting and drawing lanes on road images or videos using OpenCV.
+This repository contains code for detecting and drawing lanes on road images or videos using OpenCV, which can be used for lane recognition for autonomous vehicles. 
 # Description
 The main.py file is the main script that performs lane detection on either an image or a video. It uses the following steps:
 
